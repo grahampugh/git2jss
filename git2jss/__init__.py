@@ -183,7 +183,7 @@ def find_prefs_file():
     """ Return the platform-specific location of our prefs file """
     if jss.tools.is_osx():
         prefs_file = os.path.join('~', 'Library', 'Preferences',
-                                  'com.github.gkluoe.git2jss.plist')
+                                  'com.github.sheagcraig.python-jss.plist')
     elif jss.tools.is_linux():
         prefs_file = os.path.join("~", "." + 'com.github.gkluoe.git2jss.plist')
 
